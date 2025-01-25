@@ -8,8 +8,43 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<style>
+    .Roboto-font{
+        font-family: "Roboto", serif;
+    }
+    .Bebas-Neue-font{
+        font-family: "Bebas Neue", serif;
+    }
+</style>
+
 </head>
-<body>
+<body class="Roboto-font">
+
+    <header class="bg-[#FFFBF0]">
+        <nav>
+
+        </nav>
+
+        <section class="md:flex md:justify-around mx-10 md:mx-36 items-center">
+            <div class="">
+                <h1 class="text-5xl uppercase text-[#FABE4C] font-medium leading-snug Bebas-Neue-font">Be the Penguins <br> <span class="text-[#363958]">of Winter</span> </h1>
+                <p class="my-3 Roboto-font">Lorem Ipsum is simply dummy text of the printing 
+                   <br> and typesetting industry.</p>
+                <button class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-8 py-4 rounded-xl font-medium text-white flex gap-2 items-center"> <span class="material-symbols-outlined">
+                    shopping_cart
+                    </span> <span class="">BUY NOW</span> </button>    
+            </div>
+
+            <div class="md:pb-32">
+                <img src="images/model.png" alt="">
+            </div>
+        </section>
+    </header>
+
     
 </body>
 </html>
